@@ -45,3 +45,12 @@ form {
   left: -50%; */
   opacity: 1;
 }
+
+input {
+  background-color: cornsilk;
+}
+
+input:active {
+  background-color: darkorange;
+  cursor: pointer;
+}
