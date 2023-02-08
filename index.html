@@ -14,6 +14,7 @@
 
         <label for="input_name">Name</label>
         <input
+tabindex="1"
           type="text"
           name="name"
           id="input_name"
@@ -23,18 +24,18 @@
         />
 
         <label for="input_age">Age</label>
-        <input type="text" name="age" id="input_age" value="" />
+        <input tabindex="2" type="text" name="age" id="input_age" value="" />
 
         <label for="input_hobby">Hobby</label>
-        <input disabled type="text" name="hobby" id="input_hobby" value="" />
+        <input tabindex="3" disabled type="text" name="hobby" id="input_hobby" value="" />
 
         <label for="radio">Gender</label>
-        <p><input type="radio" name="gender" value="female" />Female</p>
+        <p><input  tabindex="4"  type="radio" name="gender" value="female" />Female</p>
         <p><input checked type="radio" name="gender" value="male" />Male</p>
 
         <div>
           <p>
-            <input checked type="checkbox" name="car1" value="yes" />Наявність
+            <input tabindex="5" checked type="checkbox" name="car1" value="yes" />Наявність
             авто
           </p>
           <p>
@@ -46,11 +47,11 @@
         </div>
 
         <div>
-          <p><input type="file" name="file" id="file" multiple /></p>
+          <p><input tabindex="6" type="file" name="file" id="file" multiple /></p>
         </div>
 
         <div>
-          <textarea
+          <textarea  tabindex="7" 
             name="text"
             id="textarea"
             placeholder="Type text here..."
@@ -60,13 +61,13 @@
         <br />
 
         <div>
-          <select multiple name="color" id="select_color">
+          <select  tabindex="8" multiple name="color" id="select_color">
             <option value="blue">Блакитний</option>
             <option value="yellow">Жовтий</option>
             <option value="violet">Фіолетовий</option>
           </select>
 
-          <select name="city" id="select_city">
+          <select tabindex="9" name="city" id="select_city">
             <option value="Cherkasy">Черкаси</option>
             <option value="Kyiv">Київ</option>
             <option value="Lviv">Львів</option>
@@ -74,10 +75,10 @@
         </div>
 
         <br />
-        <button type="reset">Зітри все!</button>
+        <button tabindex="10" type="reset">Зітри все!</button>
         <br />
 
-        <input type="submit" value="Вперед" />
+        <input tabindex="11" type="submit" value="Вперед" />
       </form>
     </div>
 
