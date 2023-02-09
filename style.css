@@ -50,7 +50,7 @@ input {
   background-color: cornsilk;
 }
 
-input:active {
+input:focus {
   background-color: darkorange;
   cursor: pointer;
 }
